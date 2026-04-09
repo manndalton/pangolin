@@ -2116,6 +2116,7 @@
     "domainPickerFreeProvidedDomain": "Бесплатный домен",
     "domainPickerVerified": "Подтверждено",
     "domainPickerUnverified": "Не подтверждено",
+    "domainPickerManual": "Manual",
     "domainPickerInvalidSubdomainStructure": "Этот поддомен содержит недопустимые символы или структуру. Он будет очищен автоматически при сохранении.",
     "domainPickerError": "Ошибка",
     "domainPickerErrorLoadDomains": "Не удалось загрузить домены организации",
