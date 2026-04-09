@@ -2116,6 +2116,7 @@
     "domainPickerFreeProvidedDomain": "Безплатен предоставен домейн",
     "domainPickerVerified": "Проверено",
     "domainPickerUnverified": "Непроверено",
+    "domainPickerManual": "Manual",
     "domainPickerInvalidSubdomainStructure": "Този поддомен съдържа невалидни знаци или структура. Ще бъде автоматично пречистен при запазване.",
     "domainPickerError": "Грешка",
     "domainPickerErrorLoadDomains": "Неуспешно зареждане на домейни на организацията",
