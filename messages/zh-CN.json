@@ -2116,6 +2116,7 @@
     "domainPickerFreeProvidedDomain": "免费提供的域",
     "domainPickerVerified": "已验证",
     "domainPickerUnverified": "未验证",
+    "domainPickerManual": "Manual",
     "domainPickerInvalidSubdomainStructure": "此子域包含无效的字符或结构。当您保存时，它将被自动清除。",
     "domainPickerError": "错误",
     "domainPickerErrorLoadDomains": "加载组织域名失败",
