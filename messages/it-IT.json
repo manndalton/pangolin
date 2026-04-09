@@ -2116,6 +2116,7 @@
     "domainPickerFreeProvidedDomain": "Dominio Fornito Gratuito",
     "domainPickerVerified": "Verificato",
     "domainPickerUnverified": "Non Verificato",
+    "domainPickerManual": "Manual",
     "domainPickerInvalidSubdomainStructure": "Questo sottodominio contiene caratteri o struttura non validi. Sarà sanificato automaticamente quando si salva.",
     "domainPickerError": "Errore",
     "domainPickerErrorLoadDomains": "Impossibile caricare i domini dell'organizzazione",
