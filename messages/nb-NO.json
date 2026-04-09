@@ -2116,6 +2116,7 @@
     "domainPickerFreeProvidedDomain": "Gratis oppgitt domene",
     "domainPickerVerified": "Bekreftet",
     "domainPickerUnverified": "Uverifisert",
+    "domainPickerManual": "Manual",
     "domainPickerInvalidSubdomainStructure": "Dette underdomenet inneholder ugyldige tegn eller struktur. Det vil automatisk bli utsatt når du lagrer.",
     "domainPickerError": "Feil",
     "domainPickerErrorLoadDomains": "Kan ikke laste organisasjonens domener",
