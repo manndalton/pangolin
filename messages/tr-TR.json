@@ -2116,6 +2116,7 @@
     "domainPickerFreeProvidedDomain": "Ücretsiz Sağlanan Alan Adı",
     "domainPickerVerified": "Doğrulandı",
     "domainPickerUnverified": "Doğrulanmadı",
+    "domainPickerManual": "Manual",
     "domainPickerInvalidSubdomainStructure": "Bu alt alan adı geçersiz karakterler veya yapı içeriyor. Kaydettiğinizde otomatik olarak temizlenecektir.",
     "domainPickerError": "Hata",
     "domainPickerErrorLoadDomains": "Organizasyon alan adları yüklenemedi",
