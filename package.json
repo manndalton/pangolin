@@ -13,7 +13,8 @@
     "db:generate": "drizzle-kit generate",
     "db:studio": "drizzle-kit studio",
     "db:reset": "rm -f db/db.sqlite && drizzle-kit migrate",
-    "db:backup": "cp db/db.sqlite db/db.sqlite.bak"
+    "db:backup": "cp db/db.sqlite db/db.sqlite.bak",
+    "db:restore": "cp db/db.sqlite.bak db/db.sqlite"
   },
   "keywords": [
     "tunnel",
