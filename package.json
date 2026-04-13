@@ -14,7 +14,8 @@
     "db:studio": "drizzle-kit studio",
     "db:reset": "rm -f db/db.sqlite && drizzle-kit migrate",
     "db:backup": "cp db/db.sqlite db/db.sqlite.bak",
-    "db:restore": "cp db/db.sqlite.bak db/db.sqlite"
+    "db:restore": "cp db/db.sqlite.bak db/db.sqlite",
+    "db:backup:ts": "cp db/db.sqlite db/db.sqlite.$(date +%Y%m%d_%H%M%S).bak"
   },
   "keywords": [
     "tunnel",
@@ -59,5 +60,10 @@
   "engines": {
     "node": ">=22.0.0"
   },
-  "_note": "Personal fork for learning purposes. Upstream: https://github.com/fosrl/pangolin"
+  "_note": "Personal fork for learning purposes. Upstream: https://github.com/fosrl/pangolin",
+  "_notes": {
+    "upstream": "https://github.com/fosrl/pangolin",
+    "purpose": "Personal fork for learning purposes",
+    "db:backup:ts": "Use db:backup:ts instead of db:backup to get a timestamped backup file"
+  }
 }
