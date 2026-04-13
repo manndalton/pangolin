@@ -12,7 +12,8 @@
     "db:migrate": "drizzle-kit migrate",
     "db:generate": "drizzle-kit generate",
     "db:studio": "drizzle-kit studio",
-    "db:reset": "rm -f db/db.sqlite && drizzle-kit migrate"
+    "db:reset": "rm -f db/db.sqlite && drizzle-kit migrate",
+    "db:backup": "cp db/db.sqlite db/db.sqlite.bak"
   },
   "keywords": [
     "tunnel",
