@@ -17,7 +17,8 @@
     "db:restore": "cp db/db.sqlite.bak db/db.sqlite",
     "db:backup:ts": "cp db/db.sqlite db/db.sqlite.$(date +%Y%m%d_%H%M%S).bak",
     "db:backup:all": "mkdir -p db/backups && cp db/db.sqlite db/backups/db.sqlite.$(date +%Y%m%d_%H%M%S).bak",
-    "db:backup:clean": "find db/backups -name '*.bak' -mtime +7 -delete"
+    "db:backup:clean": "find db/backups -name '*.bak' -mtime +7 -delete",
+    "db:backup:count": "find db/backups -name '*.bak' | wc -l"
   },
   "keywords": [
     "tunnel",
@@ -68,6 +69,7 @@
     "purpose": "Personal fork for learning purposes",
     "db:backup:ts": "Use db:backup:ts instead of db:backup to get a timestamped backup file",
     "db:backup:all": "Like db:backup:ts but stores backups in db/backups/ directory to keep things tidy",
-    "db:backup:clean": "Deletes backups older than 7 days from db/backups/ — reduced from 30 days since I'm on a small VPS with limited disk space"
+    "db:backup:clean": "Deletes backups older than 7 days from db/backups/ — reduced from 30 days since I'm on a small VPS with limited disk space",
+    "db:backup:count": "Quick sanity check to see how many backup files are sitting in db/backups/ before running clean"
   }
 }
